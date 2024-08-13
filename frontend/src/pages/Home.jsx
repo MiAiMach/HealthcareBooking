@@ -14,8 +14,8 @@ import { BsArrowRight } from 'react-icons/bs';
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
 import DoctorList from '../components/Doctors/DoctorList';
-//import FaqItem from '../components/Faq/FaqItem';
 import FaqList from '../components/Faq/FaqList';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
   return <>
@@ -292,7 +292,17 @@ const Home = () => {
   {/* =========== testimonials ================ */}
 
   <section>
-    <div className="container"></div>
+    <div className="container">
+      <div className="xl:w-[470px] mx-auto">
+          <h2 className="heading text-center">
+            What Our Patients Say
+          </h2>
+          <p className="text__para text-center text-textColor mt-4">
+            World-class care for everyone. Our Health System offers unmatched expert health care
+          </p>
+       </div>
+      <Testimonial />
+    </div>
   </section>
   {/* =========== testimonials  end ================ */}
 
