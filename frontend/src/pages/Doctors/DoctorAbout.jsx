@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { formatDate } from '../../utils/formateDate';
 
 const DoctorAbout = () => {
@@ -55,11 +55,11 @@ const DoctorAbout = () => {
         </h3>
 
         <ul className='grid sm:grid-cols-2 gap-[30px] pt-4 md:p-5'>
-          <li className='p-4 rounded bg-[fff9ea]'>
+          <li className='p-4 rounded bg-[#fff9ea]'>
             <span className='text-yellowColor text-[15px] leading-6 font-semibold'>
               {formatDate("09-12-2020")} - {formatDate("05-05-2024")} 
             </span>
-            <p className="text-[15px] leading-6 font-medium text-textColor">
+            <p className="text-[15px] font-medium text-textColor">
               Sr. Surgeon  
             </p>            
           </li>
